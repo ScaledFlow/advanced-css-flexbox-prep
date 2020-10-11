@@ -10,8 +10,10 @@
 .container1 {
   background-color: #ccc;
   display: flex;
-    align-items: center;
-  justify-content: stretch;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  /* align-items: center; */
+
 }
 
 .item1 {
@@ -43,9 +45,6 @@
   height: 100px;
   text-align: center;
 }
-
-
-
 
 .container3 {
   background-color: #ccc;
